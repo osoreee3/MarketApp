@@ -9,6 +9,7 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String index(){
+        System.out.println("ckb");
         return "홈화면입니다.";
     }
 }
